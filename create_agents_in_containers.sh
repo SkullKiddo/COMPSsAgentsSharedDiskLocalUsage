@@ -3,20 +3,10 @@
 #One liner chulo per parar tots els containers
 #'$(docker ps --filter name="COMPSsWorker_docker_0*" --filter status=running -aq | xargs docker stop && compss_clean_procs)&'
 
-
-# docker run \
-#             --name="COMPSsWorker_docker_02" \
-#             -d \
-#             -p "46101:46101" \
-#             -p "46102:46102" \
-#             -v /opt/COMPSs:/opt/COMPSs \
-#             -v /home/gpuigdem/compss_codes/test_dockers_agents/compss_execution_files:/compss_execution_files \
-#             -v /home/gpuigdem/compss_codes/test_dockers_agents/agentsOut_2:/agentsOut \
-#             --rm \
-#             compss/compss /compss_execution_files/compss_commands_main_agent.sh
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 docker ps --filter name="COMPSsWorker_docker_0*" --filter status=running -aq | xargs docker stop && compss_clean_procs
-sudo rm -rf /home/gpuigdem/compss_codes/test_dockers_agents/agentsOut_*
+sudo rm -rf ${SCRIPT_DIR}/agentsOut_*
 
 num_agents=$1
 
@@ -28,26 +18,13 @@ echo "______ creating $num_agents agents in docker containers"
 
 for ((i=1; i <= num_agents; i++)); do
 
-
-# No funciona porque entre docker y docker no puede comunicarse por 127.0.0.X no se por que
-    # docker run \
-    #     --name="COMPSsWorker_docker_0${i}" \
-    #     -d \
-    #     -p "127.0.0.$((i)):46$((i))01:46$((i))01" \
-    #     -p "127.0.0.$((i)):46$((i))02:46$((i))02" \
-    #     -v /opt/COMPSs:/opt/COMPSs \
-    #     -v /home/gpuigdem/compss_codes/test_dockers_agents/compss_execution_files:/compss_execution_files \
-    #     -v /home/gpuigdem/compss_codes/test_dockers_agents/agentsOut:/agentsOut \
-    #     --rm \
-    #     compss_agents /compss_execution_files/compss_commands_main_agent.sh ${i}
-        
     docker run \
         --name="COMPSsWorker_docker_0${i}" \
         -d \
         --network host \
         -v /opt/COMPSs:/opt/COMPSs \
-        -v /home/gpuigdem/compss_codes/test_dockers_agents/compss_execution_files:/compss_execution_files \
-        -v /home/gpuigdem/compss_codes/test_dockers_agents/agentsOut:/agentsOut \
+        -v ${SCRIPT_DIR}/compss_execution_files:/compss_execution_files \
+        -v ${SCRIPT_DIR}/agentsOut:/agentsOut \
         --rm \
         compss_agents /compss_execution_files/compss_commands_main_agent.sh ${i}
 
