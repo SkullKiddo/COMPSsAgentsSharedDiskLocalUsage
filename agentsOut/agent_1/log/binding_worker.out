@@ -1,0 +1,33 @@
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker piper_worker - [PYTHON WORKER] [piper_worker.py] wake up
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] -----------------------------
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Persistent worker parameters:
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] -----------------------------
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] working_dir    : /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] log_dir        : /agentsOut/agent_1/log/
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] analysis_dir   : <bound method Globals.get_analysis_directory of <pycompss.runtime.commons.Globals object at 0x7f00023a4310>>
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Nesting        : True
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Debug          : True
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Tracing        : False
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Cache          : false
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Cache profiler : false
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Ear            : False
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Tasks per node : 1
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Exec ids       : 
+2023-09-13 10:19:20,498 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER]                  * 0
+2023-09-13 10:19:20,499 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Pipe Pairs     : 
+2023-09-13 10:19:20,499 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER]                  * PIPE IN /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pipe_-2028281499_executor0.outbound PIPE OUT /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pipe_-2028281499_executor0.inbound
+2023-09-13 10:19:20,499 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Storage conf.  : null
+2023-09-13 10:19:20,499 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Stream backend : NONE
+2023-09-13 10:19:20,499 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Stream master  : COMPSsWorker01
+2023-09-13 10:19:20,499 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] Stream port    : 49049
+2023-09-13 10:19:20,499 DEBUG pycompss.worker.piper.piper_worker utils - [PYTHON WORKER] -----------------------------
+2023-09-13 10:19:20,499 DEBUG pycompss.worker.piper.piper_worker piper_worker - [PYTHON WORKER] Launching process 0
+2023-09-13 10:19:20,502 DEBUG pycompss.worker.piper.piper_worker executor - *[PYTHON EXECUTOR] Establishing link with runtime in process Process-0
+2023-09-13 10:19:20,502 DEBUG pycompss.worker.piper.piper_worker direct - Loading compss extension
+2023-09-13 10:19:20,504 DEBUG pycompss.worker.piper.piper_worker direct - Loaded compss extension
+2023-09-13 10:19:20,504 DEBUG pycompss.worker.piper.piper_worker executor - *[PYTHON EXECUTOR] [Process-0] Starting process
+2023-09-13 10:19:20,504 DEBUG pycompss.worker.piper.piper_worker executor - *[PYTHON EXECUTOR] [Process-0] Received command EXECUTE_TASK 1 /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/sandBox/job_1 /agentsOut/agent_1/log/jobs/job1_NEW.out /agentsOut/agent_1/log/jobs/job1_NEW.err false 1 true null METHOD test main_agents 0 1 COMPSsWorker01 1 false null 0 0 - - COMPSsWorker01
+2023-09-13 10:19:20,504 DEBUG pycompss.worker.piper.piper_worker executor - *[PYTHON EXECUTOR] [Process-0] Processing message: EXECUTE_TASK 1 /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/sandBox/job_1 /agentsOut/agent_1/log/jobs/job1_NEW.out /agentsOut/agent_1/log/jobs/job1_NEW.err false 1 true null METHOD test main_agents 0 1 COMPSsWorker01 1 false null 0 0 - - COMPSsWorker01
+2023-09-13 10:19:20,504 DEBUG pycompss.worker.piper.piper_worker executor - *[PYTHON EXECUTOR] [Process-0] Received task with id: 1
+2023-09-13 10:19:20,504 DEBUG pycompss.worker.piper.piper_worker executor - *[PYTHON EXECUTOR] [Process-0] Setting working directory: /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/sandBox/job_1
+2023-09-13 10:19:20,504 DEBUG pycompss.worker.piper.piper_worker executor - *[PYTHON EXECUTOR] [Process-0] - TASK CMD: ['EXECUTE_TASK', '1', '/agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/sandBox/job_1', '/agentsOut/agent_1/log/jobs/job1_NEW.out', '/agentsOut/agent_1/log/jobs/job1_NEW.err', 'false', '1', 'true', 'null', 'METHOD', 'test', 'main_agents', '0', '1', 'COMPSsWorker01', '1', 'false', 'null', '0', '0']

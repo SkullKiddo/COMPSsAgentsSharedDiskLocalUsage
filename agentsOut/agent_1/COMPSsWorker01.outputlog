@@ -1,0 +1,265 @@
+[ INFO ] Using default execution type: compss
+[ INFO ] Options setup:
+    AGENT NAME: COMPSsWorker01
+    AGENT REST PORT: 46101
+    AGENT COMM PORT: 46102
+
+    RESOURCES FILE: compss_execution_files/resources.xml
+    PROJECT FILE: compss_execution_files/projectAgent1.xml
+    COMM ADAPTOR: es.bsc.compss.agent.comm.CommAgentAdaptor
+
+    DEBUG: debug
+    PYTHON INTERPRETER: python3
+    MPI PYTHON: false
+    PYTHON CACHE: false
+    PYTHON PROFILER: 
+[ INFO ] -----------------------------------------------
+              AGENT  COMPSsWorker01
+-----------------------------------------------
+Launching COMPSs agent on device COMPSsWorker01 and ports (rest: 46101) (comm: 46102) with debug level 
+[(475)    API]  -  LoggerManager already initialized, no need for a second initialization
+[(490)    API]  -  Deploying COMPSs Runtime v3.2.rc2307 (build 20230913-1142.r5d9fa52090414ac8428b76456bb5bf56c91f3a04)
+[(996)    API]  -  Starting COMPSs Runtime v3.2.rc2307 (build 20230913-1142.r5d9fa52090414ac8428b76456bb5bf56c91f3a04)
+[(996)    API]  -  Initializing components
+[(1161)    API]  -  Ready to process tasks
+Constructing configuration
+Crating Config with port 46202
+Initializing Worker 
+Received REST call to run a PYTHON method
+[(15482)    API]  -  Registering CoreElement main_agents()
+[(15482)    API]  -  	 - Implementation 0:
+[(15482)    API]  -  Method declared in class test.main_agents: main_agents
+[(15484)    API]  -  Creating task from method main_agents() for application -4762684514812086776
+[(15484)    API]  -  There are 0 parameter
+[(15672)    API]  -  Registering CoreElement test.in_return
+[(15672)    API]  -  	 - Implementation: test.in_return
+[(15672)    API]  -  	 - Constraints   : processor_architecture:processor_ag_2;operating_system_type:agent_2;
+[(15672)    API]  -  	 - Local process : False
+[(15672)    API]  -  	 - Type          : METHOD
+[(15672)    API]  -  	 - I/O           : False
+[(15672)    API]  -  	 - Prolog        : 
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  	 - Epilog        : 
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  	 - Container        : 
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  		 -- : [unassigned]
+[(15672)    API]  -  	 - ImplTypeArgs  : 
+[(15672)    API]  -  		 Arg: test
+[(15672)    API]  -  		 Arg: in_return
+[(15675)    API]  -  Creating task from method test.in_return for application 7586356596105645259
+[(15675)    API]  -  There are 2 parameters
+[(15675)    API]  -   Parameter 0 has type FILE_T
+[(15678)    API]  -   Parameter 1 has type FILE_T
+[(15678)    API]  -  Opening /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-1 in direction IN
+Constructing configuration
+Crating Config with port 46302
+Initializing Worker 
+[(16227)    API]  -  Openning file d2v2_1694600360527.IT
+[(16227)    API]  -  Asking for transfer
+[(16233)    API]  -  file /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-1:COMPSsWorker01 located on file://COMPSsWorker01/agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/d2v2_1694600360527.IT
+[(16233)    API]  -  File target Location: /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/d2v2_1694600360527.IT
+[(16255)    API]  -  Closing /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-1 in direction IN
+[(16255)    API]  -  Closing file /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-1
+[(16255)    API]  -  Deleting File /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-1 with wait for data true
+[(16257)    API]  -  File /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-1 Deleted.
+[(16278)    API]  -  Registering CoreElement test.in_return_w_print
+[(16278)    API]  -  	 - Implementation: test.in_return_w_print
+[(16278)    API]  -  	 - Constraints   : processor_architecture:processor_ag_2;operating_system_type:agent_2;
+[(16278)    API]  -  	 - Local process : False
+[(16278)    API]  -  	 - Type          : METHOD
+[(16278)    API]  -  	 - I/O           : False
+[(16278)    API]  -  	 - Prolog        : 
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  	 - Epilog        : 
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  	 - Container        : 
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  		 -- : [unassigned]
+[(16278)    API]  -  	 - ImplTypeArgs  : 
+[(16278)    API]  -  		 Arg: test
+[(16278)    API]  -  		 Arg: in_return_w_print
+[(16281)    API]  -  Creating task from method test.in_return_w_print for application 7586356596105645259
+[(16281)    API]  -  There are 2 parameters
+[(16281)    API]  -   Parameter 0 has type FILE_T
+[(16281)    API]  -   Parameter 1 has type FILE_T
+[(16282)    API]  -  Opening /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-3 in direction IN
+[(16517)    API]  -  Openning file d4v2_1694600360527.IT
+[(16517)    API]  -  Asking for transfer
+[(16525)    API]  -  file /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-3:COMPSsWorker01 located on file://COMPSsWorker01/agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/d4v2_1694600360527.IT
+[(16525)    API]  -  File target Location: /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/d4v2_1694600360527.IT
+[(16546)    API]  -  Closing /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-3 in direction IN
+[(16546)    API]  -  Closing file /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-3
+[(16546)    API]  -  Deleting File /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-3 with wait for data true
+[(16547)    API]  -  File /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-3 Deleted.
+[(16568)    API]  -  Registering CoreElement test.inout_w_print
+[(16568)    API]  -  	 - Implementation: test.inout_w_print
+[(16568)    API]  -  	 - Constraints   : processor_architecture:processor_ag_2;operating_system_type:agent_2;
+[(16568)    API]  -  	 - Local process : False
+[(16568)    API]  -  	 - Type          : METHOD
+[(16568)    API]  -  	 - I/O           : False
+[(16568)    API]  -  	 - Prolog        : 
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  	 - Epilog        : 
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  	 - Container        : 
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  		 -- : [unassigned]
+[(16568)    API]  -  	 - ImplTypeArgs  : 
+[(16568)    API]  -  		 Arg: test
+[(16568)    API]  -  		 Arg: inout_w_print
+[(16571)    API]  -  Creating task from method test.inout_w_print for application 7586356596105645259
+[(16571)    API]  -  There is 1 parameter
+[(16571)    API]  -   Parameter 0 has type FILE_T
+[(16572)    API]  -  Opening /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-5 in direction IN
+[(16724)    API]  -  Openning file d5v2_1694600360527.IT
+[(16724)    API]  -  Asking for transfer
+[(16727)    API]  -  file /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-5:COMPSsWorker01 located on file://COMPSsWorker01/agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/d5v2_1694600360527.IT
+[(16727)    API]  -  File target Location: /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/d5v2_1694600360527.IT
+[(16747)    API]  -  Closing /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-5 in direction IN
+[(16748)    API]  -  Closing file /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-5
+[(16748)    API]  -  Deleting File /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-5 with wait for data true
+[(16748)    API]  -  File /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-5 Deleted.
+[(16769)    API]  -  Registering CoreElement test.inout
+[(16769)    API]  -  	 - Implementation: test.inout
+[(16769)    API]  -  	 - Constraints   : processor_architecture:processor_ag_2;operating_system_type:agent_2;
+[(16769)    API]  -  	 - Local process : False
+[(16769)    API]  -  	 - Type          : METHOD
+[(16769)    API]  -  	 - I/O           : False
+[(16769)    API]  -  	 - Prolog        : 
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  	 - Epilog        : 
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  	 - Container        : 
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  		 -- : [unassigned]
+[(16769)    API]  -  	 - ImplTypeArgs  : 
+[(16769)    API]  -  		 Arg: test
+[(16769)    API]  -  		 Arg: inout
+[(16771)    API]  -  Creating task from method test.inout for application 7586356596105645259
+[(16771)    API]  -  There is 1 parameter
+[(16771)    API]  -   Parameter 0 has type FILE_T
+[(16771)    API]  -  Opening /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-6 in direction IN
+[(16847)    API]  -  Openning file d6v2_1694600360527.IT
+[(16847)    API]  -  Asking for transfer
+[(16850)    API]  -  file /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-6:COMPSsWorker01 located on file://COMPSsWorker01/agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/d6v2_1694600360527.IT
+[(16851)    API]  -  File target Location: /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/d6v2_1694600360527.IT
+[(16871)    API]  -  Closing /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-6 in direction IN
+[(16871)    API]  -  Closing file /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-6
+[(16871)    API]  -  Deleting File /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-6 with wait for data true
+[(16872)    API]  -  File /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-6 Deleted.
+[(16892)    API]  -  Registering CoreElement test.generation_return
+[(16892)    API]  -  	 - Implementation: test.generation_return
+[(16892)    API]  -  	 - Constraints   : processor_architecture:processor_ag_2;operating_system_type:agent_2;
+[(16892)    API]  -  	 - Local process : False
+[(16892)    API]  -  	 - Type          : METHOD
+[(16892)    API]  -  	 - I/O           : False
+[(16893)    API]  -  	 - Prolog        : 
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  	 - Epilog        : 
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  	 - Container        : 
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  		 -- : [unassigned]
+[(16893)    API]  -  	 - ImplTypeArgs  : 
+[(16893)    API]  -  		 Arg: test
+[(16893)    API]  -  		 Arg: generation_return
+[(16894)    API]  -  Creating task from method test.generation_return for application 7586356596105645259
+[(16894)    API]  -  There is 1 parameter
+[(16894)    API]  -   Parameter 0 has type FILE_T
+[(16895)    API]  -  Registering CoreElement test.consumption
+[(16895)    API]  -  	 - Implementation: test.consumption
+[(16895)    API]  -  	 - Constraints   : processor_architecture:processor_ag_2;operating_system_type:agent_2;
+[(16895)    API]  -  	 - Local process : False
+[(16895)    API]  -  	 - Type          : METHOD
+[(16895)    API]  -  	 - I/O           : False
+[(16895)    API]  -  	 - Prolog        : 
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  	 - Epilog        : 
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  	 - Container        : 
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  		 -- : [unassigned]
+[(16895)    API]  -  	 - ImplTypeArgs  : 
+[(16895)    API]  -  		 Arg: test
+[(16895)    API]  -  		 Arg: consumption
+[(16897)    API]  -  Creating task from method test.consumption for application 7586356596105645259
+[(16897)    API]  -  There are 2 parameters
+[(16897)    API]  -   Parameter 0 has type FILE_T
+[(16897)    API]  -   Parameter 1 has type STRING_64_T
+[(16898)    API]  -  Registering CoreElement test.generation_inout
+[(16898)    API]  -  	 - Implementation: test.generation_inout
+[(16898)    API]  -  	 - Constraints   : processor_architecture:processor_ag_2;operating_system_type:agent_2;
+[(16898)    API]  -  	 - Local process : False
+[(16898)    API]  -  	 - Type          : METHOD
+[(16898)    API]  -  	 - I/O           : False
+[(16898)    API]  -  	 - Prolog        : 
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  	 - Epilog        : 
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  	 - Container        : 
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  		 -- : [unassigned]
+[(16898)    API]  -  	 - ImplTypeArgs  : 
+[(16898)    API]  -  		 Arg: test
+[(16898)    API]  -  		 Arg: generation_inout
+[(16902)    API]  -  Creating task from method test.generation_inout for application 7586356596105645259
+[(16902)    API]  -  There is 1 parameter
+[(16902)    API]  -   Parameter 0 has type FILE_T
+[(16903)    API]  -  Creating task from method test.consumption for application 7586356596105645259
+[(16903)    API]  -  There are 2 parameters
+[(16903)    API]  -   Parameter 0 has type FILE_T
+[(16904)    API]  -   Parameter 1 has type STRING_64_T
+[(16904)    API]  -  Opening /agentsOut/agent_1/wdir/.COMPSs/351b46a6-fdd4-4142-97a2-c4370589e39b/pycompss9w0uyi1j/00bf8338-521f-11ee-9fe1-c8cb9eaa8471-7 in direction IN
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked
+test invoked

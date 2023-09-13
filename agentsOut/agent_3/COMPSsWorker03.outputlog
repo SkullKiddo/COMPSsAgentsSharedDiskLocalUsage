@@ -1,0 +1,70 @@
+[ INFO ] Using default execution type: compss
+[ INFO ] Options setup:
+    AGENT NAME: COMPSsWorker03
+    AGENT REST PORT: 46301
+    AGENT COMM PORT: 46302
+
+    RESOURCES FILE: compss_execution_files/resources.xml
+    PROJECT FILE: compss_execution_files/projectAgent3.xml
+    COMM ADAPTOR: es.bsc.compss.agent.comm.CommAgentAdaptor
+
+    DEBUG: debug
+    PYTHON INTERPRETER: python3
+    MPI PYTHON: false
+    PYTHON CACHE: false
+    PYTHON PROFILER: 
+[ INFO ] -----------------------------------------------
+              AGENT  COMPSsWorker03
+-----------------------------------------------
+Launching COMPSs agent on device COMPSsWorker03 and ports (rest: 46301) (comm: 46302) with debug level 
+[(358)    API]  -  LoggerManager already initialized, no need for a second initialization
+[(373)    API]  -  Deploying COMPSs Runtime v3.2.rc2307 (build 20230913-1142.r5d9fa52090414ac8428b76456bb5bf56c91f3a04)
+[(919)    API]  -  Starting COMPSs Runtime v3.2.rc2307 (build 20230913-1142.r5d9fa52090414ac8428b76456bb5bf56c91f3a04)
+[(919)    API]  -  Initializing components
+[(1093)    API]  -  Ready to process tasks
+Constructing configuration
+Crating Config with port 46202
+Initializing Worker 
+[(13666)    API]  -  Registering CoreElement test.nested_in_return
+[(13666)    API]  -  	 - Implementation 0:
+[(13666)    API]  -  Method declared in class test.nested_in_return: nested_in_return
+[(13668)    API]  -  Creating task from method test.nested_in_return for application -3527215117501652385
+[(13668)    API]  -  There are 3 parameters
+[(13668)    API]  -   Parameter 0 has type FILE_T
+[(13669)    API]  -   Parameter 1 has type STRING_64_T
+[(13670)    API]  -   Parameter 2 has type FILE_T
+[(14079)    API]  -  Registering CoreElement test.nested_in_return
+[(14079)    API]  -  	 - Implementation 0:
+[(14079)    API]  -  Method declared in class test.nested_in_return: nested_in_return
+[(14079)    API]  -  Creating task from method test.nested_in_return for application -1826248786099064340
+[(14079)    API]  -  There are 3 parameters
+[(14080)    API]  -   Parameter 0 has type FILE_T
+[(14080)    API]  -   Parameter 1 has type STRING_64_T
+[(14080)    API]  -   Parameter 2 has type FILE_T
+[(14326)    API]  -  Registering CoreElement test.nested_inout
+[(14326)    API]  -  	 - Implementation 0:
+[(14326)    API]  -  Method declared in class test.nested_inout: nested_inout
+[(14327)    API]  -  Creating task from method test.nested_inout for application 4225879118026722733
+[(14327)    API]  -  There are 2 parameters
+[(14327)    API]  -   Parameter 0 has type FILE_T
+[(14327)    API]  -   Parameter 1 has type STRING_64_T
+[(14505)    API]  -  Registering CoreElement test.nested_inout
+[(14505)    API]  -  	 - Implementation 0:
+[(14505)    API]  -  Method declared in class test.nested_inout: nested_inout
+[(14505)    API]  -  Creating task from method test.nested_inout for application -755060611380404039
+[(14505)    API]  -  There are 2 parameters
+[(14505)    API]  -   Parameter 0 has type FILE_T
+[(14505)    API]  -   Parameter 1 has type STRING_64_T
+[(14634)    API]  -  Registering CoreElement test.nested_generation_return
+[(14634)    API]  -  	 - Implementation 0:
+[(14634)    API]  -  Method declared in class test.nested_generation_return: nested_generation_return
+[(14634)    API]  -  Creating task from method test.nested_generation_return for application 3464302342586948874
+[(14634)    API]  -  There is 1 parameter
+[(14634)    API]  -   Parameter 0 has type FILE_T
+[(14680)    API]  -  Registering CoreElement test.consumption
+[(14680)    API]  -  	 - Implementation 0:
+[(14680)    API]  -  Method declared in class test.consumption: consumption
+[(14681)    API]  -  Creating task from method test.consumption for application -938560041313154599
+[(14681)    API]  -  There are 2 parameters
+[(14681)    API]  -   Parameter 0 has type FILE_T
+[(14681)    API]  -   Parameter 1 has type STRING_64_T

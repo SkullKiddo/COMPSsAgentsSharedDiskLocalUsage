@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/gpuigdem/compss_codes/test_dockers_agents/compss_execution_files/javaCode/src/main/java/test/Simple.java">
+<error line="12" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/gpuigdem/compss_codes/test_dockers_agents/compss_execution_files/javaCode/src/main/java/test/SimpleItf.java">
+</file>
+</checkstyle>

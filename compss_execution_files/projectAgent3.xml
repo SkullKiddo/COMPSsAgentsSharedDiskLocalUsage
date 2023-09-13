@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project>
+    <MasterNode>
+        <SharedDisks>
+            <AttachedDisk Name="sshhdisk">
+                <MountPoint>/agentsOut/</MountPoint>
+            </AttachedDisk>
+        </SharedDisks>
+        <Processor Name="MainProcessor">
+            <ComputingUnits>1</ComputingUnits>
+            <Architecture>processor_ag_3</Architecture>
+        </Processor>
+    </MasterNode>
+</Project>

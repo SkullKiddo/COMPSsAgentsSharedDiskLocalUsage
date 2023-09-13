@@ -1,0 +1,74 @@
+Initializing agent with name: COMPSsWorker03
+DataClay configuration: null
+Executing Agent
+Reading Agent config from /opt/COMPSs//Runtime/configuration/agents/all.json
+Loading es.bsc.compss.agent.rest.RESTAgent's agent interface
+Loading es.bsc.compss.agent.comm.CommAgentImpl's agent interface
+Starting CommAgent on port 46302
+New request to run as a PYTHON task test.nested_in_return
+appId: -3527215117501652385
+Core Element Description: es.bsc.compss.types.CoreElementDefinition@33a3c35d
+Parallelizing application according to null
+Parameters: 
+	* CommParam: [ remoteData: RemoteData d3v1_1694600360569.IT @ {[RESOURCE = [NAME = COMPSsWorker02, ADAPTOR = es.bsc.compss.agent.comm.CommAgentAdaptor, PROJECT = null, RESOURCES = null, PORT = 46202], PATH =file://null:46202@/agentsOut/agent_2/wdir/.COMPSs/718046e4-bcd5-4ca5-8587-9663352a4027/pycompssfxq3el5j/00e7e774-521f-11ee-aa4b-c8cb9eaa8471-2]  },NIOParam: [[PARAM[MGMT ID = d3v1_1694600360569.IT][TYPE = FILE_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = mat_a][CONTENT TYPE = /usr/local/lib/python3.10/dist-packages/numpy/__init__.py:ndarray][KEEP_RENAME = true][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = 00e7e774-521f-11ee-aa4b-c8cb9eaa8471-2][VALUE = 00e7e774-521f-11ee-aa4b-c8cb9eaa8471-2][DATA null][STORED PATH = null]]] ]
+	* CommParam: [ remoteData: null,NIOParam: [[PARAM[MGMT ID = null][TYPE = STRING_64_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = label][CONTENT TYPE = builtins:str][KEEP_RENAME = false][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = null][VALUE = I25lc3RlZCBpbl9yZXR1cm4=][DATA null][STORED PATH = null]]] ]
+Handles parameters:
+	 Parameter:mat_a
+	 Parameter:label
+		Using value passed in as parameter
+External job 2 is app -3527215117501652385
+New request to run as a PYTHON task test.nested_in_return
+appId: -1826248786099064340
+Core Element Description: es.bsc.compss.types.CoreElementDefinition@638fe223
+Parallelizing application according to null
+Parameters: 
+	* CommParam: [ remoteData: RemoteData d7v1_1694600360569.IT @ {[RESOURCE = [NAME = COMPSsWorker02, ADAPTOR = es.bsc.compss.agent.comm.CommAgentAdaptor, PROJECT = null, RESOURCES = null, PORT = 46202], PATH =file://null:46202@/agentsOut/agent_2/wdir/.COMPSs/718046e4-bcd5-4ca5-8587-9663352a4027/pycompssfxq3el5j/00e7e774-521f-11ee-aa4b-c8cb9eaa8471-4]  },NIOParam: [[PARAM[MGMT ID = d7v1_1694600360569.IT][TYPE = FILE_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = mat_a][CONTENT TYPE = /usr/local/lib/python3.10/dist-packages/numpy/__init__.py:ndarray][KEEP_RENAME = true][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = 00e7e774-521f-11ee-aa4b-c8cb9eaa8471-4][VALUE = 00e7e774-521f-11ee-aa4b-c8cb9eaa8471-4][DATA null][STORED PATH = null]]] ]
+	* CommParam: [ remoteData: null,NIOParam: [[PARAM[MGMT ID = null][TYPE = STRING_64_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = label][CONTENT TYPE = builtins:str][KEEP_RENAME = false][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = null][VALUE = I25lc3RlZF9pbl9yZXR1cm5fd19wcmludA==][DATA null][STORED PATH = null]]] ]
+Handles parameters:
+	 Parameter:mat_a
+	 Parameter:label
+		Using value passed in as parameter
+External job 4 is app -1826248786099064340
+New request to run as a PYTHON task test.nested_inout
+appId: 4225879118026722733
+Core Element Description: es.bsc.compss.types.CoreElementDefinition@276ba1ed
+Parallelizing application according to null
+Parameters: 
+	* CommParam: [ remoteData: RemoteData d10v1_1694600360569.IT @ {[RESOURCE = [NAME = COMPSsWorker02, ADAPTOR = es.bsc.compss.agent.comm.CommAgentAdaptor, PROJECT = null, RESOURCES = null, PORT = 46202], PATH =file://null:46202@/agentsOut/agent_2/wdir/.COMPSs/718046e4-bcd5-4ca5-8587-9663352a4027/pycompssfxq3el5j/00e7e774-521f-11ee-aa4b-c8cb9eaa8471-5]  },NIOParam: [[PARAM[MGMT ID = d10v2_1694600360569.IT][TYPE = FILE_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = mat_c][CONTENT TYPE = /usr/local/lib/python3.10/dist-packages/numpy/__init__.py:ndarray][KEEP_RENAME = true][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = 00e7e774-521f-11ee-aa4b-c8cb9eaa8471-5][VALUE = 00e7e774-521f-11ee-aa4b-c8cb9eaa8471-5][DATA null][STORED PATH = null]]] ]
+	* CommParam: [ remoteData: null,NIOParam: [[PARAM[MGMT ID = null][TYPE = STRING_64_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = label][CONTENT TYPE = builtins:str][KEEP_RENAME = false][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = null][VALUE = I25lc3RlZF9pbm91dF93X3ByaW50][DATA null][STORED PATH = null]]] ]
+Handles parameters:
+	 Parameter:mat_c
+	 Parameter:label
+		Using value passed in as parameter
+External job 6 is app 4225879118026722733
+New request to run as a PYTHON task test.nested_inout
+appId: -755060611380404039
+Core Element Description: es.bsc.compss.types.CoreElementDefinition@545bf9e4
+Parallelizing application according to null
+Parameters: 
+	* CommParam: [ remoteData: RemoteData d12v1_1694600360569.IT @ {[RESOURCE = [NAME = COMPSsWorker02, ADAPTOR = es.bsc.compss.agent.comm.CommAgentAdaptor, PROJECT = null, RESOURCES = null, PORT = 46202], PATH =file://null:46202@/agentsOut/agent_2/wdir/.COMPSs/718046e4-bcd5-4ca5-8587-9663352a4027/pycompssfxq3el5j/00e7e774-521f-11ee-aa4b-c8cb9eaa8471-6]  },NIOParam: [[PARAM[MGMT ID = d12v2_1694600360569.IT][TYPE = FILE_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = mat_c][CONTENT TYPE = /usr/local/lib/python3.10/dist-packages/numpy/__init__.py:ndarray][KEEP_RENAME = true][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = 00e7e774-521f-11ee-aa4b-c8cb9eaa8471-6][VALUE = 00e7e774-521f-11ee-aa4b-c8cb9eaa8471-6][DATA null][STORED PATH = null]]] ]
+	* CommParam: [ remoteData: null,NIOParam: [[PARAM[MGMT ID = null][TYPE = STRING_64_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = label][CONTENT TYPE = builtins:str][KEEP_RENAME = false][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = null][VALUE = I25lc3RlZF9pbm91dA==][DATA null][STORED PATH = null]]] ]
+Handles parameters:
+	 Parameter:mat_c
+	 Parameter:label
+		Using value passed in as parameter
+External job 8 is app -755060611380404039
+New request to run as a PYTHON task test.nested_generation_return
+appId: 3464302342586948874
+Core Element Description: es.bsc.compss.types.CoreElementDefinition@28a932d2
+Parallelizing application according to null
+Parameters: 
+Handles parameters:
+External job 10 is app 3464302342586948874
+New request to run as a PYTHON task test.consumption
+appId: -938560041313154599
+Core Element Description: es.bsc.compss.types.CoreElementDefinition@53de5eff
+Parallelizing application according to null
+Parameters: 
+	* CommParam: [ remoteData: RemoteData d15v1_1694600360569.IT @ {[RESOURCE = [NAME = COMPSsWorker03, ADAPTOR = es.bsc.compss.agent.comm.CommAgentAdaptor, PROJECT = null, RESOURCES = null, PORT = 46302], PATH =any://COMPSsWorker03:46302@d14v2_1694600360569.IT]  },NIOParam: [[PARAM[MGMT ID = d15v1_1694600360569.IT][TYPE = FILE_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = mat_c][CONTENT TYPE = Future][KEEP_RENAME = true][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = 00bf8338-521f-11ee-9fe1-c8cb9eaa8471-7][VALUE = 00bf8338-521f-11ee-9fe1-c8cb9eaa8471-7][DATA null][STORED PATH = null]]] ]
+	* CommParam: [ remoteData: null,NIOParam: [[PARAM[MGMT ID = null][TYPE = STRING_64_T][IOSTREAM = UNSPECIFIED][PREFIX = null][NAME = label][CONTENT TYPE = builtins:str][KEEP_RENAME = false][PRESERVE SOURCE DATA = false][WRITE FINAL VALUE = false][ORIGINAL NAME = null][VALUE = I2NvbnN1bXB0aW9uX3JldHVybg==][DATA null][STORED PATH = null]]] ]
+Handles parameters:
+	 Parameter:mat_c
+	 Parameter:label
+		Using value passed in as parameter
+External job 11 is app -938560041313154599

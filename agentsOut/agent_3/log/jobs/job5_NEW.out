@@ -1,0 +1,121 @@
+[EXECUTOR] executeTask - Begin task execution
+WORKER - Parameters of execution:
+  * Method type: METHOD
+  * Method definition: [DECLARING CLASS=test, METHOD NAME=nested_generation_return]
+  * Parameter types:
+  * Parameter names:
+  * Parameter values:
+  * Parameter streams:
+  * Parameter prefixes:
+  * Has Target: false
+  * Has Return: true
+[INVOKER] COMPSS_HOSTNAMES: COMPSsWorker03
+[INVOKER] COMPSS_NUM_NODES: 1
+[INVOKER] COMPSS_NUM_THREADS: 1
+[INVOKER] COMPSS_NUM_PROCS: 1
+[EXECUTOR] executeTask - End task execution
+r.piper.piper_worker executor - ----------------------------------------------------------------------------------------------------
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker executor - Received task in process: Process-0
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker executor - TASK CMD: ['EXECUTE_TASK', '5', '/agentsOut/agent_3/wdir/.COMPSs/7b9af2c4-c600-4d1f-a9b1-3713bfe1bf63/sandBox/job_5', '/agentsOut/agent_3/log/jobs/job5_NEW.out', '/agentsOut/agent_3/log/jobs/job5_NEW.err', 'false', '5', 'true', 'null', 'METHOD', 'test', 'nested_generation_return', '0', '1', 'COMPSsWorker03', '1', 'false', '10', '1', '1', '10', '3', '#', '$return_0', 'FILE', 'null:d7v2_1694600360820.IT:false:true:/agentsOut/agent_3/wdir/.COMPSs/7b9af2c4-c600-4d1f-a9b1-3713bfe1bf63/d7v2_1694600360820.IT']
+2023-09-13 10:19:21,792 WARNING pycompss.worker.piper.piper_worker executor - This task is going to be executed with default thread affinity [0, 1, 2, 3, 4, 5, 6, 7]
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker executor - Process environment:
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker executor - 	 - Number of nodes: 1
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker executor - 	 - Hostnames: COMPSsWorker03
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker executor - 	 - Number of threads: 1
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - BEGIN TASK execution in Process-0
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - COMPSs parameters:
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Storage conf: null
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Logger cfg: /opt/COMPSs/Bindings/python/3/pycompss/worker/piper/commons/../../../../log/logging_worker_debug.json
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Log out file: /agentsOut/agent_3/log/jobs/job5_NEW.out
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Log err file: /agentsOut/agent_3/log/jobs/job5_NEW.err
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Params: ['test', 'nested_generation_return', '0', '1', 'COMPSsWorker03', '1', 'false', '10', '1', '1', '10', '3', '#', '$return_0', 'FILE', 'null:d7v2_1694600360820.IT:false:true:/agentsOut/agent_3/wdir/.COMPSs/7b9af2c4-c600-4d1f-a9b1-3713bfe1bf63/d7v2_1694600360820.IT']
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Path: test
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Method name: nested_generation_return
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Num slaves: 1
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Slaves: ['1']
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Cus: 1
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Has target: false
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Num Params: 1
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Return Length: 1
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- Args: ['10', '3', '#', '$return_0', 'FILE', 'null:d7v2_1694600360820.IT:false:true:/agentsOut/agent_3/wdir/.COMPSs/7b9af2c4-c600-4d1f-a9b1-3713bfe1bf63/d7v2_1694600360820.IT']
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 	- COMPSs kwargs:
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_key: True
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_tracing: False
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_process_name: Process-0
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_storage_conf: null
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_return_length: 1
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_logger: <Logger pycompss.worker.piper.piper_worker (DEBUG)>
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_log_cfg: /opt/COMPSs/Bindings/python/3/pycompss/worker/piper/commons/../../../../log/logging_worker_debug.json
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_log_files: ('/agentsOut/agent_3/log/jobs/job5_NEW.out', '/agentsOut/agent_3/log/jobs/job5_NEW.err')
+2023-09-13 10:19:21,792 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_python_MPI: False
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_collections_layouts: {}
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 		- compss_cache: (None, None, None, False)
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - Processing parameters:
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - Parameter : 0
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	 * Type : 10
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	 * Std IO Stream : 3
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	 * Prefix : #
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	 * Name : $return_0
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	 * Content Type: 'FILE'
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	 * Value: 'null:d7v2_1694600360820.IT:false:true:/agentsOut/agent_3/wdir/.COMPSs/7b9af2c4-c600-4d1f-a9b1-3713bfe1bf63/d7v2_1694600360820.IT'
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	 * Updated type : 10
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - RUN TASK with arguments:
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	- Path: test
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	- Method/function name: nested_generation_return
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	- Has target: false
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	- # parameters: 1
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - LOAD TASK:
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - 	- Trying to import the user module: test
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - Module successfully loaded
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - EXECUTE TASK:
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - Starting task execution
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - module     : <module 'test' from '/compss_execution_files/test.py'> 
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - method_name: nested_generation_return 
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - time_out   : 0 
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - Types      : [10] 
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - Values     : [Parameter(name=$return_0
+          type=10, direction=0, stream=3, prefix=#
+          extra_content_type=FILE
+          file_name=Source: null, Destination: d7v2_1694600360820.IT, Keep source: False, Is write final: True, Original path: /agentsOut/agent_3/wdir/.COMPSs/7b9af2c4-c600-4d1f-a9b1-3713bfe1bf63/d7v2_1694600360820.IT
+          is_future=False
+          is_file_collection=False, depth=9223372036854775807
+          weight=1.0
+          keep_rename=True
+          cache=True
+          content=)] 
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - P. storage : False 
+2023-09-13 10:19:21,793 DEBUG pycompss.worker.piper.piper_worker worker - Storage cfg: null 
+2023-09-13 10:19:21,796 DEBUG pycompss.runtime.task.worker worker - Starting @task decorator worker call
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Redirecting stdout to: /agentsOut/agent_3/log/jobs/job5_NEW.out
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Redirecting stderr to: /agentsOut/agent_3/log/jobs/job5_NEW.err
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Revealing objects
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Finished revealing objects
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Building task parameters structures
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Finished building parameters structures.
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Invoking user code
+printing matrix output nested_generation_return:
+[[30 30 30 30 30]
+ [30 30 30 30 30]
+ [30 30 30 30 30]
+ [30 30 30 30 30]
+ [30 30 30 30 30]]
+------------------------------------
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Finished user code
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Dealing with INOUTs and OUTS
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Dealing with returns: 1
+2023-09-13 10:19:21,797 DEBUG pycompss.runtime.task.worker worker - Serializing return: /agentsOut/agent_3/wdir/.COMPSs/7b9af2c4-c600-4d1f-a9b1-3713bfe1bf63/d7v2_1694600360820.IT
+2023-09-13 10:19:21,798 DEBUG pycompss.runtime.task.worker worker - Building types update
+2023-09-13 10:19:21,803 DEBUG pycompss.runtime.task.worker worker - Finished @task decorator
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker worker - Exit code: 0 
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker worker - Return Types: [10] 
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker worker - Return Values: ['null'] 
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker worker - Return target_direction: INOUT 
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker worker - Return timed_out: False 
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker worker - Return exception_message:  
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker worker - Finished task execution
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker worker - END TASK execution. Status: Ok
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker executor - Process-0 - Pipe /agentsOut/agent_3/wdir/.COMPSs/7b9af2c4-c600-4d1f-a9b1-3713bfe1bf63/pipe_-1238581264_executor0.inbound END TASK MESSAGE: END_TASK 5 0 1 10 null
+
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker executor - Cleaning environment.
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker executor - Restoring loggers.
+2023-09-13 10:19:21,808 DEBUG pycompss.worker.piper.piper_worker executor - ----------------------------------------------------------------------------------------------------

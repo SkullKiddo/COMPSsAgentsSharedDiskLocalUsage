@@ -1,0 +1,6 @@
+WARNING: COMPSs Properties file is null. Setting default values
+WARNING: COMPSs Properties file is null. Setting default values
+log4j:WARN No appenders could be found for logger (org.eclipse.jetty.util.log).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[ERRMGR]  -  WARNING: SharedDisk sshhdisk1 defined in the master node is not defined in the resources.xml. Skipping
