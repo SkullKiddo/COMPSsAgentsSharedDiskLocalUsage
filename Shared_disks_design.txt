@@ -1,0 +1,21 @@
+The problems:
+
+Right now, NIOWorkerNode.java in the function getNIODatafromLogicalData only stores to send to the workers the uris returned by the data (LogicalData.getURIs()) which basically sends the Uris of all the locations of the data
+
+A shared location has a shared disk and when you call the method getURIs() from this shared location the location checks the machines that have this shared disk and return a multiUri to this data in each one of the machines with access to this shared disk.
+
+When working with agents an agent does not know which other agents have access to a shared disk, so (on top of everithing we were sending in a master-worker approach) we must send an uri pointing to the location in the shared disk itself.
+
+This URI must have the format "shared://sharedDisk/path/file" for the runtime act apropiatelly on receiving it.
+
+I did not opted for modifying the behaviour of the shared location itself in order to: 1, not add unnecessary information traspassing when using a master-worker approach. 2, SharedLocation.getUris() returns a list of MultiUris, which don't support not having a host and the shared disk is not in an specific host by definition. 
+
+To solve the aforementioned problems:
+
+CommAgentWorker.java now overrides the method getNIODatafromLogicalData from NIOWorkerNode.java
+
+In this override method while doing the same process of adding all the uris from all the locations of the data it checks if the location is a shared location.
+If a location is shared it adds an extra NioUri with the shared location itself.
+Then, on creating the RemoteDataLocations to share (CommAgentJob.buildCommParamFromDependencyParameter()) checks if the protocol from the NioUris corresponds to a shared uri to add a new RemoteDataLocation corresponding to the shared location itself.
+
+For handling the results of a task in a similar fashion, the agent on executing createRDLfromLD from AppMonitor.java now also checks if a location is shared. If it is it adds the a remoteDataLocation representing the shared location itself aswell as remoteDataLocations to all the machines known to the agent to have access to the shared disk.

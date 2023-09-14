@@ -1,3 +1,5 @@
+Usage:
+
 The script "create_agents_in_containers.sh <n>" lanches $n dockers which each one executing compss_commands_main_agent.sh parametized with the number of the agent (from now on let's call this id number for each agent between 1..n  "i").
 
 The docker are launched with the folder compss_execution_files mounted as a volume for them to read the script that starts the agent (compss_commands_main_agent), the configuration files, and the code of the execution. 
