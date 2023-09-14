@@ -72,7 +72,6 @@ echo "/opt/COMPSs/Runtime/scripts/user/compss_agent_call_operation \
     --forward_to="${param_forward_to}" \
     test
 
-wait 
 
 
 #One liner chulo per parar tots els containers
